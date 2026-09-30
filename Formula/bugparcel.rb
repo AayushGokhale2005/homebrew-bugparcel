@@ -1,8 +1,8 @@
 class Bugparcel < Formula
   desc "Local-first failure parcels for coding agents"
   homepage "https://github.com/AayushGokhale2005/bugparcel-core"
-  url "https://github.com/AayushGokhale2005/bugparcel-core/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "15fecf517b265466b3759c70e99625076d7d834cef2d2d8083047c79f3c554cd"
+  url "https://github.com/AayushGokhale2005/bugparcel-core/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "14cb9e287485223a93cba31b7141fa0b9070d66234562825d162c85f0884666a"
   license "Apache-2.0"
   head "https://github.com/AayushGokhale2005/bugparcel-core.git", branch: "setup/fastapi-sandbox"
 
@@ -29,7 +29,7 @@ class Bugparcel < Formula
   end
 
   test do
-    assert_match "capture", shell_output("#{bin}/bugparcel --help")
+    assert_match "add-remote", shell_output("#{bin}/bugparcel --help")
     assert_path_exists bin/"bugparcel-mcp"
   end
 end
