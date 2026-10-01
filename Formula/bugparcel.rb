@@ -1,8 +1,8 @@
 class Bugparcel < Formula
   desc "Local-first failure parcels for coding agents"
   homepage "https://github.com/AayushGokhale2005/bugparcel-core"
-  url "https://github.com/AayushGokhale2005/bugparcel-core/archive/refs/tags/v0.1.3.tar.gz"
-  sha256 "faf221e5daf01153d6e0b26c94ab4e96da5e396d90f5b694e0d444643d52f45d"
+  url "https://github.com/AayushGokhale2005/bugparcel-core/archive/refs/tags/v0.1.4.tar.gz"
+  sha256 "af15eee7eb0e57af547b1755f4d67b1ebe32e12efcc9215b7f8331f2dabe9b82"
   license "Apache-2.0"
   head "https://github.com/AayushGokhale2005/bugparcel-core.git", branch: "setup/fastapi-sandbox"
 
